@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #292E36;
+  color:#FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button.bg-red {
+  background-color: #FF0000;
+}
+button.bg-darken {
+  background-color: #24282E;
+}
+button.bg-dark {
+  background-color: #1E232B;
+}
+
+.movie-poster {
+  height: 355.5px;
+  object-fit: cover;
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .3;
+  }  
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .3;
+  }
+}
+
