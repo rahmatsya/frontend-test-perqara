@@ -4,6 +4,8 @@
 Name: Rachmad Syaefullah
 Email: rachmadsyaefullah13@gmail.com
 
+API : https://developers.themoviedb.org/3/
+
 Library Used:
 - React JS
 - Typescript
